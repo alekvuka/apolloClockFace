@@ -1,0 +1,5 @@
+<svg class="background">
+  <image id="image" href="" />
+  <text id="myLabel" />
+  <text id="heartRate" />
+</svg>

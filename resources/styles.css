@@ -1,0 +1,21 @@
+.background {
+  viewport-fill: red;
+}
+
+#myLabel {
+  font-size: 20;
+  text-length: 60;
+  text-anchor: start;
+  x: 5%;
+  y: 95%;
+  fill: white;
+}
+
+#heartRate {
+  font-size: 20;
+  text-length: 60;
+  text-anchor: start;
+  x: 90%;
+  y: 95%;
+  fill: white;
+}

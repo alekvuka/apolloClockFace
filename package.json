@@ -1,0 +1,57 @@
+{
+  "fitbit": {
+    "appUUID": "cec30fb0-8bff-42bd-a54c-94f01a4a833a",
+    "appType": "clockface",
+    "appDisplayName": "demoProject",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "",
+    "requestedPermissions": [
+      "access_heart_rate"
+    ],
+    "buildTargets": [
+      "higgs",
+      "meson",
+      "gemini",
+      "mira"
+    ],
+    "i18n": {
+      "en": {
+        "name": "demoProject"
+      },
+      "de": {
+        "name": "demoProject"
+      },
+      "es": {
+        "name": "demoProject"
+      },
+      "fr": {
+        "name": "demoProject"
+      },
+      "it": {
+        "name": "demoProject"
+      },
+      "ja": {
+        "name": "demoProject"
+      },
+      "ko": {
+        "name": "demoProject"
+      },
+      "nl": {
+        "name": "demoProject"
+      },
+      "sv": {
+        "name": "demoProject"
+      },
+      "zh-cn": {
+        "name": "demoProject"
+      },
+      "zh-tw": {
+        "name": "demoProject"
+      }
+    },
+    "defaultLanguage": "en-US"
+  },
+  "devDependencies": {
+    "@fitbit/sdk": "~4.0.0"
+  }
+}
