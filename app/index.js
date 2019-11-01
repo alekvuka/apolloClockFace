@@ -6,7 +6,7 @@ import { HeartRateSensor } from "heart-rate";
 import { me as device } from "device";
 import { display } from "display";
 
-//change background image based on device/screen size 
+//change background image based on device/screen size
 const img = document.getElementById("image");
 if (device.modelName === "Ionic") {
   img.href = "forIonic.jpg";
@@ -24,14 +24,14 @@ const myLabel = document.getElementById("myLabel");
 const heartRate = document.getElementById("heartRate");
 
 clock.ontick = (evt) => {
-  
-  // stop the hr sensor if the creen is off
+
+  // stop the hr sensor if the screen is off
   if(display.on){
     hrm.start();
   }else{
     hrm.stop();
   }
-  
+
   let today = evt.date;
   let hours = today.getHours();
   if (preferences.clockDisplay === "12h") {
